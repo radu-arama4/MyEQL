@@ -9,4 +9,20 @@ public class Sorting extends Query {
         this.parameter = parameter;
         this.sortvalue = sortvalue;
     }
+
+    public Enum getparameter() {
+        return parameter;
+    }
+
+    public void setparameter(Enum parameter) {
+        this.parameter = parameter;
+    }
+
+    public Enum getsortvalue() {
+        return sortvalue;
+    }
+
+    public void sortvalue(Enum sortvalue) {
+        this.sortvalue = sortvalue;
+    }
 }

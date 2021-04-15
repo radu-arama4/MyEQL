@@ -1,15 +1,18 @@
 package com.company.Data.EmailSpecs;
 import com.company.Data.Query;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Subject extends Query {
-    String word;
-    List<String> words = new ArrayList<>() ;
+    String words;
 
-    public Subject(List<String> words, String word) {
+    public Subject(String words) {
         this.words = words;
-        this.word = word;
+    }
+
+    public String getwords() {
+        return words;
+    }
+
+    public void setwords(String words) {
+        this.words = words;
     }
 }

@@ -7,4 +7,12 @@ public class Folder extends Query {
     public Folder(String folder) {
         this.folder = folder;
     }
+
+    public String getfolder() {
+        return folder;
+    }
+
+    public void setfolder(String folder) {
+        this.folder = folder;
+    }
 }

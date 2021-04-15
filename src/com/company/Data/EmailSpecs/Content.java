@@ -11,4 +11,20 @@ public class Content extends Query {
         this.attachments = attachments;
     }
 
+    public String getbody() {
+        return body;
+    }
+
+    public void setbody(String body) {
+        this.body = body;
+    }
+
+    public Attachment getattachments() {
+        return attachments;
+    }
+
+    public void setAttachments(Attachment attachments) {
+        this.attachments = attachments;
+    }
+
 }
